@@ -562,23 +562,20 @@ footer{
 
     .hero-about-me{
         margin: 50px;
-        width: 580px;
+        width: 645px;
         font-size: 15px;
     }
     .skills{
         margin: 50px;
-        width: 580px;
+        width: 645px;
         font-size: 25px;
     }
 
     .contenedor-imagenes{
         margin: 50px;
-        width: 580px;
+        width: 645px;
         font-size: 16px;
 
-    }
-    .card{
-        padding: 0.1;
     }
 
     .boton-card1{
