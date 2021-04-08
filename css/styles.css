@@ -486,12 +486,42 @@ footer{
 
 
 @media screen and (max-width:600px){
+    .contenedor-texto-two img{
+        background: none;
+        width:320px;
+        height: 400px;
+    }
+    .hero-about-me{
+        padding-top: var(--marginElementos);
+        margin: 15px;
+        height:400px;
+        
+        /* display: flex;
+        justify-content: space-around; */
+        /* flex-wrap: wrap; */
+        /* align-items: center; */
+        background: #e0e5ec;
+        border-radius: 10px;
+        box-shadow:  0 0  25px rgba(163, 163, 163, 0.363);
+        /* background: #007bff; */
+    }
+
+    .about-me{
+        display: flex;
+        justify-content: space-evenly;
+        /* flex-wrap: wrap; */
+        color: #414850;
+        font-weight:400;
+        font-size: 23px;
+    }
+
+
+
     .hero h1{
         font-size: 40px;
     }   
 
-    .hero p{
-        font-size: 20px;
+    .contenedor-texto-one p{
         text-align: center;
     }
     .boton{
@@ -534,65 +564,4 @@ footer{
     .form{
         margin: 20px 0;
     }
-}
-
-
-@media screen and (max-width:600px){
-    .hero h1{
-        font-size: 40px;
-    }   
-
-    .hero p{
-        font-size: 20px;
-
-    }
-    .boton{
-        margin: 15px auto;
-        padding: 17px;
-        font-size: 15px;
-    }
-
-    .titulo-section{
-        text-align: center;
-        font-size: 30px;
-        /* color:var(--colorFondo); */
-        letter-spacing: 2px;
-        width: 700px;
-    }
-
-    .hero-about-me{
-        margin: 50px;
-        width: 650px;
-        font-size: 15px;
-    }
-    .skills{
-        margin: 50px;
-        width: 650px;
-        font-size: 25px;
-    }
-
-    .contenedor-imagenes{
-        margin: 50px;
-        width: 650px;
-        font-size: 16px;
-
-    }
-
-    .card{
-        width: 350px;
-        height: 400px;
-        padding: 30px;
-        margin: 30px auto;
-    }
-
-    .boton-card1{
-        font-size: 15px;
-    }
-
-
-    footer{
-        width: 730px;
-    }
-
-
 }
